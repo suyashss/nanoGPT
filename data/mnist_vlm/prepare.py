@@ -66,9 +66,9 @@ meta = {
 with open(os.path.join(os.path.dirname(__file__), 'meta.pkl'), 'wb') as f:
     pickle.dump(meta, f)
 
-#length of dataset in characters: TO UPDATE
-#all the unique characters:  TO UPDATE
-#vocab size: TO UPDATE
-#train has TO UPDATE tokens
-#val has TO UPDATE tokens
-#test has TO UPDATE tokens
+#length of dataset in characters: 2,240,000
+#all the unique characters:  #,.0123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZabegimnru
+#vocab size: 50
+#train has 1,600,000 tokens
+#val has 320,000 tokens
+#test has 320,000 tokens
